@@ -9,6 +9,7 @@ variables:
 
 before_script:
   - "dotnet restore"
+  - "echo 'Hello before_script'"
 
 build:
   stage: build
